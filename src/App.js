@@ -1,5 +1,6 @@
 import ClassCounter from "./components/useState/ClassCounter";
 import HookCounter from "./components/useState/HookCounter";
+import HookCounterTwo from "./components/useState/HookCounterTwo";
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <ClassCounter />
       <p>Counter using useState Hook with functional component</p>
       <HookCounter />
+      <p>Counter with increment decrement and reset</p>
+      <HookCounterTwo />
     </div>
   );
 }

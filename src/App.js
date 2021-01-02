@@ -1,4 +1,5 @@
 import ClassCounter from "./components/useState/ClassCounter";
+import HookArray from "./components/useState/HookArray";
 import HookCounter from "./components/useState/HookCounter";
 import HookCounterTwo from "./components/useState/HookCounterTwo";
 import HookObjects from "./components/useState/HookObjects";
@@ -14,6 +15,8 @@ function App() {
       <HookCounterTwo />
       <p>Hooks with objects</p>
       <HookObjects />
+      <p>Hooks with Array</p>
+      <HookArray />
     </div>
   );
 }
